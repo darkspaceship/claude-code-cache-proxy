@@ -1,0 +1,11 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:8765",
+    "ANTHROPIC_AUTH_TOKEN": "test-token",
+    "ANTHROPIC_API_KEY": "test-key",
+    "ANTHROPIC_MODEL": "example-model",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "API_TIMEOUT_MS": "10000"
+  },
+  "model": "example-model"
+}

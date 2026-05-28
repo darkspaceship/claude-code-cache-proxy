@@ -1,0 +1,131 @@
+2026-05-27T06:30:18.449Z [DEBUG] MDM settings load completed in 0ms
+2026-05-27T06:30:18.460Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-05-27T06:30:18.461Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.local.json
+2026-05-27T06:30:18.461Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-05-27T06:30:18.463Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json'
+2026-05-27T06:30:18.463Z [DEBUG] Setting permissions for new file: 600
+2026-05-27T06:30:18.463Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.4530cbb6846c
+2026-05-27T06:30:18.463Z [DEBUG] Temp file written successfully, size: 50 bytes
+2026-05-27T06:30:18.463Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.4530cbb6846c to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json
+2026-05-27T06:30:18.463Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json written atomically
+2026-05-27T06:30:18.464Z [DEBUG] [init] configureGlobalMTLS starting
+2026-05-27T06:30:18.464Z [DEBUG] [init] configureGlobalMTLS complete
+2026-05-27T06:30:18.464Z [DEBUG] [init] configureGlobalAgents starting
+2026-05-27T06:30:18.464Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-27T06:30:18.464Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-27T06:30:18.471Z [DEBUG] CA certs: system store returned empty
+2026-05-27T06:30:18.471Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-27T06:30:18.471Z [DEBUG] [init] configureGlobalAgents complete
+2026-05-27T06:30:18.471Z [DEBUG] Error log sink initialized
+2026-05-27T06:30:18.472Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:30:18.472Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.019cb6f1ebca
+2026-05-27T06:30:18.472Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:30:18.472Z [DEBUG] Temp file written successfully, size: 86 bytes
+2026-05-27T06:30:18.472Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.019cb6f1ebca to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json
+2026-05-27T06:30:18.473Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json written atomically
+2026-05-27T06:30:18.473Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/settings.json
+2026-05-27T06:30:18.473Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:30:18.473Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.28e95726b81b
+2026-05-27T06:30:18.473Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:30:18.473Z [DEBUG] Temp file written successfully, size: 125 bytes
+2026-05-27T06:30:18.473Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.28e95726b81b to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json
+2026-05-27T06:30:18.473Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json written atomically
+2026-05-27T06:30:18.474Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:30:18.474Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.9b0a956ee4ba
+2026-05-27T06:30:18.474Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:30:18.474Z [DEBUG] Temp file written successfully, size: 152 bytes
+2026-05-27T06:30:18.474Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.9b0a956ee4ba to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json
+2026-05-27T06:30:18.474Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json written atomically
+2026-05-27T06:30:18.475Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:30:18.475Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.61a7095a6a95
+2026-05-27T06:30:18.475Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:30:18.475Z [DEBUG] Temp file written successfully, size: 178 bytes
+2026-05-27T06:30:18.475Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.61a7095a6a95 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json
+2026-05-27T06:30:18.475Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json written atomically
+2026-05-27T06:30:18.477Z [DEBUG] [ToolSearch:optimistic] disabled: ANTHROPIC_BASE_URL=http://127.0.0.1:8765 is not a first-party Anthropic host. Set ENABLE_TOOL_SEARCH=true (or auto / auto:N) if your proxy forwards tool_reference blocks.
+2026-05-27T06:30:18.480Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-05-27T06:30:18.481Z [DEBUG] [STARTUP] Running setup()...
+2026-05-27T06:30:18.482Z [DEBUG] Error log sink initialized
+2026-05-27T06:30:18.482Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.json
+2026-05-27T06:30:18.482Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/skills, project=[]
+2026-05-27T06:30:18.482Z [DEBUG] [bare] Skipping skill dir discovery (no --add-dir)
+2026-05-27T06:30:18.482Z [DEBUG] [STARTUP] setup() completed in 1ms
+2026-05-27T06:30:18.482Z [DEBUG] Cleared CA certificates cache
+2026-05-27T06:30:18.482Z [DEBUG] Cleared mTLS configuration cache
+2026-05-27T06:30:18.482Z [DEBUG] Cleared proxy agent cache
+2026-05-27T06:30:18.482Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-27T06:30:18.483Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-27T06:30:18.483Z [DEBUG] CA certs: system store returned empty
+2026-05-27T06:30:18.483Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-27T06:30:18.484Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-05-27T06:30:18.486Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 13 bundled skills, 0 builtin plugin skills
+2026-05-27T06:30:18.487Z [DEBUG] [STARTUP] Commands and agents loaded in 3ms
+2026-05-27T06:30:18.487Z [DEBUG] Skipping startup prefetches, last ran 1779863418s ago
+2026-05-27T06:30:18.487Z [DEBUG] [STARTUP] MCP configs resolved in 0ms (awaited at +7ms)
+2026-05-27T06:30:18.487Z [DEBUG] Cleared CA certificates cache
+2026-05-27T06:30:18.488Z [DEBUG] Cleared mTLS configuration cache
+2026-05-27T06:30:18.488Z [DEBUG] Cleared proxy agent cache
+2026-05-27T06:30:18.488Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-27T06:30:18.488Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-27T06:30:18.488Z [DEBUG] CA certs: system store returned empty
+2026-05-27T06:30:18.488Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-27T06:30:18.489Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:18.489Z [DEBUG] [MCP] --mcp-config servers running fully async (nonblocking)
+2026-05-27T06:30:18.489Z [DEBUG] [MCP] claude.ai connectors running fully async (nonblocking)
+2026-05-27T06:30:18.490Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-05-27T06:30:18.490Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-05-27T06:30:18.492Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:30:18.492Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.e19fa577483a
+2026-05-27T06:30:18.492Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:30:18.492Z [DEBUG] Temp file written successfully, size: 258 bytes
+2026-05-27T06:30:18.492Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json.tmp.49222.e19fa577483a to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json
+2026-05-27T06:30:18.492Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-home-3/.claude.json written atomically
+2026-05-27T06:30:18.493Z [DEBUG] [auto-mode] hasAutoModeOptIn=false skipAutoPermissionPrompt: user=undefined local=undefined flag=undefined policy=undefined
+2026-05-27T06:30:18.493Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=opt-in disabledBySettings=false model=mimo-v2.5-pro modelSupported=true disableFastModeBreakerFires=false carouselAvailable=false canEnterAuto=true
+2026-05-27T06:30:18.493Z [DEBUG] [auto-mode] verifyAutoModeGateAccess setAvailable: true -> false
+2026-05-27T06:30:18.497Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-05-27T06:30:18.499Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-05-27T06:30:18.501Z [DEBUG] Failed to acquire lock for 2.1.150: Error: EPERM: operation not permitted, open '/Users/lmh/.local/state/claude/locks/2.1.150.lock.tmp.da95bb1a'
+2026-05-27T06:30:18.501Z [ERROR] NON-FATAL: Lock acquisition failed for /Users/lmh/.local/share/claude/versions/2.1.150 (expected in multi-process scenarios): Lock already held by another process
+2026-05-27T06:30:18.501Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-05-27T06:30:18.501Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-05-27T06:30:18.501Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:18.505Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=180000
+2026-05-27T06:30:18.506Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-27T06:30:18.507Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.150.e11; cc_entrypoint=sdk-cli; cch=00000;
+2026-05-27T06:30:18.507Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:18.507Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:18.507Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-27T06:30:18.508Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-27T06:30:18.508Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-27T06:30:18.508Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:18.508Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:30:18.509Z [DEBUG] [API REQUEST] /v1/messages source=sdk
+2026-05-27T06:30:18.510Z [ERROR] "execFileNoThrow spawn failed: EPERM Command failed with EPERM: ps -o lstart= -p 49222\nEPERM: operation not permitted, posix_spawn 'ps'"
+2026-05-27T06:30:18.510Z [ERROR] API error (attempt 1/11): undefined Connection error.
+2026-05-27T06:30:18.527Z [DEBUG] Git remote URL: null
+2026-05-27T06:30:18.527Z [DEBUG] No git remote URL found
+2026-05-27T06:30:19.074Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:19.075Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:30:19.076Z [DEBUG] [API REQUEST] /v1/messages source=sdk
+2026-05-27T06:30:19.076Z [ERROR] API error (attempt 2/11): undefined Connection error.
+2026-05-27T06:30:20.244Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:20.249Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:30:20.251Z [DEBUG] [API REQUEST] /v1/messages source=sdk
+2026-05-27T06:30:20.252Z [ERROR] API error (attempt 3/11): undefined Connection error.
+2026-05-27T06:30:22.565Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:22.566Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:30:22.568Z [DEBUG] [API REQUEST] /v1/messages source=sdk
+2026-05-27T06:30:22.569Z [ERROR] API error (attempt 4/11): undefined Connection error.
+2026-05-27T06:30:27.237Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:27.241Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:30:27.242Z [DEBUG] [API REQUEST] /v1/messages source=sdk
+2026-05-27T06:30:27.242Z [ERROR] API error (attempt 5/11): undefined Connection error.
+2026-05-27T06:30:35.836Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:35.837Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:30:35.839Z [DEBUG] [API REQUEST] /v1/messages source=sdk
+2026-05-27T06:30:35.839Z [ERROR] API error (attempt 6/11): undefined Connection error.
+2026-05-27T06:30:55.108Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-05-27T06:30:55.108Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:30:55.109Z [DEBUG] [API REQUEST] /v1/messages source=sdk
+2026-05-27T06:30:55.110Z [ERROR] API error (attempt 7/11): undefined Connection error.

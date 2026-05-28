@@ -1,0 +1,14 @@
+{
+  "name": "claude-code-cache-proxy",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "claude-code-cache-proxy": "./bin/claude-code-cache-proxy.mjs"
+  },
+  "scripts": {
+    "start": "node proxy.mjs",
+    "claude": "node bin/claude-code-cache-proxy.mjs",
+    "verify": "node verify-cache-key.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}

@@ -1,0 +1,360 @@
+2026-05-27T06:39:31.690Z [DEBUG] MDM settings load completed in 1ms
+2026-05-27T06:39:31.701Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-05-27T06:39:31.701Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.local.json
+2026-05-27T06:39:31.701Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: none
+2026-05-27T06:39:31.702Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json'
+2026-05-27T06:39:31.703Z [DEBUG] Setting permissions for new file: 600
+2026-05-27T06:39:31.703Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.a2de097e909f
+2026-05-27T06:39:31.704Z [DEBUG] Temp file written successfully, size: 50 bytes
+2026-05-27T06:39:31.704Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.a2de097e909f to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:39:31.704Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:39:31.704Z [DEBUG] [init] configureGlobalMTLS starting
+2026-05-27T06:39:31.704Z [DEBUG] [init] configureGlobalMTLS complete
+2026-05-27T06:39:31.704Z [DEBUG] [init] configureGlobalAgents starting
+2026-05-27T06:39:31.704Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-27T06:39:31.705Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-27T06:39:31.722Z [DEBUG] CA certs: Loaded 4 system CA certificates
+2026-05-27T06:39:31.722Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-27T06:39:31.722Z [DEBUG] [init] configureGlobalAgents complete
+2026-05-27T06:39:31.723Z [DEBUG] Error log sink initialized
+2026-05-27T06:39:31.723Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:39:31.724Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.7dec08deb856
+2026-05-27T06:39:31.724Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:39:31.724Z [DEBUG] Temp file written successfully, size: 86 bytes
+2026-05-27T06:39:31.724Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.7dec08deb856 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:39:31.724Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:39:31.724Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/settings.json
+2026-05-27T06:39:31.725Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:39:31.725Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.bbc26941c1ad
+2026-05-27T06:39:31.725Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:39:31.725Z [DEBUG] Temp file written successfully, size: 125 bytes
+2026-05-27T06:39:31.725Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.bbc26941c1ad to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:39:31.725Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:39:31.726Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:39:31.726Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.59685cb0189c
+2026-05-27T06:39:31.726Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:39:31.726Z [DEBUG] Temp file written successfully, size: 152 bytes
+2026-05-27T06:39:31.726Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.59685cb0189c to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:39:31.726Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:39:31.727Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:39:31.727Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.064b14c1e3e2
+2026-05-27T06:39:31.727Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:39:31.727Z [DEBUG] Temp file written successfully, size: 178 bytes
+2026-05-27T06:39:31.727Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.064b14c1e3e2 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:39:31.727Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:39:31.729Z [DEBUG] [ToolSearch:optimistic] disabled: ANTHROPIC_BASE_URL=http://127.0.0.1:8765 is not a first-party Anthropic host. Set ENABLE_TOOL_SEARCH=true (or auto / auto:N) if your proxy forwards tool_reference blocks.
+2026-05-27T06:39:31.733Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-05-27T06:39:31.733Z [DEBUG] [STARTUP] Running setup()...
+2026-05-27T06:39:31.734Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/skills, project=[]
+2026-05-27T06:39:31.734Z [DEBUG] [bare] Skipping skill dir discovery (no --add-dir)
+2026-05-27T06:39:31.734Z [DEBUG] Error log sink initialized
+2026-05-27T06:39:31.734Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.json
+2026-05-27T06:39:31.734Z [DEBUG] [STARTUP] setup() completed in 1ms
+2026-05-27T06:39:31.734Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-05-27T06:39:31.736Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 13 bundled skills, 0 builtin plugin skills
+2026-05-27T06:39:31.737Z [DEBUG] [STARTUP] Commands and agents loaded in 3ms
+2026-05-27T06:39:31.738Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-05-27T06:39:31.739Z [DEBUG] [keybindings] KeybindingSetup initialized with 172 bindings, 0 warnings
+2026-05-27T06:39:31.759Z [DEBUG] High write ratio: blit=0, write=1587 (100.0% writes), screen=37x80
+2026-05-27T06:39:31.762Z [DEBUG] [Claude in Chrome] Found chrome profiles: Default
+2026-05-27T06:39:31.772Z [DEBUG] Cannot acquire lock for 2.1.150 - held by PID 36507
+2026-05-27T06:39:31.772Z [ERROR] NON-FATAL: Lock acquisition failed for /Users/lmh/.local/share/claude/versions/2.1.150 (expected in multi-process scenarios): Lock already held by another process
+2026-05-27T06:39:31.772Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-05-27T06:39:31.773Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-05-27T06:39:31.773Z [DEBUG] [keybindings] Watching for changes to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/keybindings.json
+2026-05-27T06:39:31.790Z [DEBUG] Git remote URL: null
+2026-05-27T06:39:31.790Z [DEBUG] No git remote URL found
+2026-05-27T06:39:31.790Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-05-27T06:39:40.419Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/settings.json.tmp.50371.ee824e9d0249
+2026-05-27T06:39:40.419Z [DEBUG] Temp file written successfully, size: 22 bytes
+2026-05-27T06:39:40.420Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/settings.json.tmp.50371.ee824e9d0249 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/settings.json
+2026-05-27T06:39:40.420Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/settings.json written atomically
+2026-05-27T06:39:40.420Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.local.json
+2026-05-27T06:39:40.421Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-05-27T06:39:40.421Z [DEBUG] Settings changed from userSettings, updating app state
+2026-05-27T06:39:40.422Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-05-27T06:39:40.422Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.local.json
+2026-05-27T06:39:40.422Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 0 rule(s): []
+2026-05-27T06:39:40.422Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 0 rule(s): []
+2026-05-27T06:39:40.422Z [DEBUG] Replacing all ask rules for destination 'userSettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all ask rules for destination 'projectSettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all deny rules for destination 'localSettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all ask rules for destination 'localSettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all allow rules for destination 'flagSettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all deny rules for destination 'flagSettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all ask rules for destination 'flagSettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all allow rules for destination 'policySettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all deny rules for destination 'policySettings' with 0 rule(s): []
+2026-05-27T06:39:40.423Z [DEBUG] Replacing all ask rules for destination 'policySettings' with 0 rule(s): []
+2026-05-27T06:39:40.425Z [DEBUG] Preserving file permissions: 100644
+2026-05-27T06:39:40.425Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/settings.json.tmp.50371.d00900ce2e89
+2026-05-27T06:39:40.425Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:39:40.426Z [DEBUG] Temp file written successfully, size: 22 bytes
+2026-05-27T06:39:40.426Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/settings.json.tmp.50371.d00900ce2e89 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/settings.json
+2026-05-27T06:39:40.426Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/settings.json written atomically
+2026-05-27T06:39:40.427Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.local.json
+2026-05-27T06:39:40.427Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-05-27T06:39:40.427Z [DEBUG] Settings changed from userSettings, updating app state
+2026-05-27T06:39:40.427Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-05-27T06:39:40.427Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.local.json
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all ask rules for destination 'userSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all ask rules for destination 'projectSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all deny rules for destination 'localSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all ask rules for destination 'localSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all allow rules for destination 'flagSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all deny rules for destination 'flagSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all ask rules for destination 'flagSettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all allow rules for destination 'policySettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all deny rules for destination 'policySettings' with 0 rule(s): []
+2026-05-27T06:39:40.428Z [DEBUG] Replacing all ask rules for destination 'policySettings' with 0 rule(s): []
+2026-05-27T06:39:40.437Z [DEBUG] High write ratio: blit=0, write=1155 (100.0% writes), screen=29x80
+2026-05-27T06:39:52.272Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:39:52.273Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.83b419427ff5
+2026-05-27T06:39:52.273Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:39:52.273Z [DEBUG] Temp file written successfully, size: 273 bytes
+2026-05-27T06:39:52.273Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.83b419427ff5 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:39:52.274Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:39:52.278Z [DEBUG] High write ratio: blit=0, write=1156 (100.0% writes), screen=27x80
+2026-05-27T06:40:03.766Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:03.766Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.4bcb44dbc106
+2026-05-27T06:40:03.767Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:03.767Z [DEBUG] Temp file written successfully, size: 345 bytes
+2026-05-27T06:40:03.767Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.4bcb44dbc106 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:03.767Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:03.769Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.json
+2026-05-27T06:40:03.773Z [DEBUG] Full reset (shrink->below): prevHeight=27, nextHeight=18, viewport=24
+2026-05-27T06:40:10.721Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:10.721Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.38aca30b56d1
+2026-05-27T06:40:10.721Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:10.721Z [DEBUG] Temp file written successfully, size: 782 bytes
+2026-05-27T06:40:10.722Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.38aca30b56d1 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:10.722Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:10.722Z [DEBUG] [STARTUP] post-onboarding GB await 0ms
+2026-05-27T06:40:10.727Z [DEBUG] Cleared CA certificates cache
+2026-05-27T06:40:10.727Z [DEBUG] Cleared mTLS configuration cache
+2026-05-27T06:40:10.727Z [DEBUG] Cleared proxy agent cache
+2026-05-27T06:40:10.727Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-27T06:40:10.727Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-27T06:40:10.727Z [DEBUG] CA certs: Loaded 4 system CA certificates
+2026-05-27T06:40:10.728Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-27T06:40:10.730Z [DEBUG] [STARTUP] showSetupScreens() completed in 38992ms
+2026-05-27T06:40:10.730Z [DEBUG] Programmatic settings change notification for policySettings
+2026-05-27T06:40:10.730Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.local.json
+2026-05-27T06:40:10.731Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-05-27T06:40:10.731Z [DEBUG] Settings changed from policySettings, updating app state
+2026-05-27T06:40:10.731Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-05-27T06:40:10.731Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.local.json
+2026-05-27T06:40:10.731Z [DEBUG] Replacing all allow rules for destination 'userSettings' with 0 rule(s): []
+2026-05-27T06:40:10.731Z [DEBUG] Replacing all deny rules for destination 'userSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all ask rules for destination 'userSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all allow rules for destination 'projectSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all deny rules for destination 'projectSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all ask rules for destination 'projectSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all allow rules for destination 'localSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all deny rules for destination 'localSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all ask rules for destination 'localSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all allow rules for destination 'flagSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all deny rules for destination 'flagSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all ask rules for destination 'flagSettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all allow rules for destination 'policySettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all deny rules for destination 'policySettings' with 0 rule(s): []
+2026-05-27T06:40:10.732Z [DEBUG] Replacing all ask rules for destination 'policySettings' with 0 rule(s): []
+2026-05-27T06:40:10.733Z [DEBUG] Cleared CA certificates cache
+2026-05-27T06:40:10.733Z [DEBUG] Cleared mTLS configuration cache
+2026-05-27T06:40:10.733Z [DEBUG] Cleared proxy agent cache
+2026-05-27T06:40:10.733Z [DEBUG] CA certs: stores=bundled,system, extraCertsPath=undefined
+2026-05-27T06:40:10.733Z [DEBUG] CA certs: Loaded 145 bundled root certificates
+2026-05-27T06:40:10.733Z [DEBUG] CA certs: Loaded 4 system CA certificates
+2026-05-27T06:40:10.733Z [DEBUG] mTLS: Creating HTTPS agent with custom certificates
+2026-05-27T06:40:10.733Z [DEBUG] Skipping startup prefetches, last ran 1779864011s ago
+2026-05-27T06:40:10.734Z [DEBUG] [STARTUP] MCP configs resolved in 0ms (awaited at +39001ms)
+2026-05-27T06:40:10.735Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:10.735Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-05-27T06:40:10.736Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:10.736Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.d1a68e849f49
+2026-05-27T06:40:10.736Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:10.737Z [DEBUG] Temp file written successfully, size: 802 bytes
+2026-05-27T06:40:10.737Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.d1a68e849f49 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:10.737Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:10.753Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude/settings.json
+2026-05-27T06:40:10.755Z [DEBUG] [keybindings] KeybindingSetup initialized with 172 bindings, 0 warnings
+2026-05-27T06:40:10.762Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:10.772Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:10.772Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.b7874459ac20
+2026-05-27T06:40:10.772Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:10.772Z [DEBUG] Temp file written successfully, size: 839 bytes
+2026-05-27T06:40:10.772Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.b7874459ac20 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:10.773Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:10.773Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:10.773Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.871e935c62e0
+2026-05-27T06:40:10.773Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:10.773Z [DEBUG] Temp file written successfully, size: 839 bytes
+2026-05-27T06:40:10.774Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.871e935c62e0 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:10.774Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:10.776Z [DEBUG] [FileIndex] getProjectFiles called, respectGitignore=true
+2026-05-27T06:40:10.776Z [DEBUG] [FileIndex] getFilesUsingGit called
+2026-05-27T06:40:10.776Z [DEBUG] [FileIndex] not a git repo, returning null
+2026-05-27T06:40:10.778Z [DEBUG] [claudeai-mcp] Disabled: API-key auth precedence active
+2026-05-27T06:40:10.778Z [DEBUG] [REPL:mount] REPL mounted, disabled=false
+2026-05-27T06:40:10.779Z [DEBUG] performStartupChecks called
+2026-05-27T06:40:10.779Z [DEBUG] Starting background plugin installations
+2026-05-27T06:40:10.780Z [DEBUG] [jobStateNameSync] watch skipped: Error: ENOENT: no such file or directory, watch '/Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/jobs/34b833e1'
+2026-05-27T06:40:10.781Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:10.781Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.c0b3d0335223
+2026-05-27T06:40:10.781Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:10.782Z [DEBUG] Temp file written successfully, size: 912 bytes
+2026-05-27T06:40:10.782Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.c0b3d0335223 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:10.782Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:10.783Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-05-27T06:40:10.787Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:10.790Z [DEBUG] [FileIndex] git ls-files returned null, falling back to ripgrep
+2026-05-27T06:40:10.793Z [DEBUG] performBackgroundPluginInstallations called
+2026-05-27T06:40:10.794Z [DEBUG] [auto-mode] hasAutoModeOptIn=false skipAutoPermissionPrompt: user=undefined local=undefined flag=undefined policy=undefined
+2026-05-27T06:40:10.794Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=opt-in disabledBySettings=false model=mimo-v2.5-pro modelSupported=true disableFastModeBreakerFires=false carouselAvailable=false canEnterAuto=true
+2026-05-27T06:40:10.794Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-05-27T06:40:10.794Z [DEBUG] [auto-mode] verifyAutoModeGateAccess setAvailable: true -> false
+2026-05-27T06:40:10.795Z [DEBUG] Failed to stat directory /Library/Application Support/ClaudeCode/.claude/commands: ENOENT: no such file or directory, stat '/Library/Application Support/ClaudeCode/.claude/commands'
+2026-05-27T06:40:10.795Z [DEBUG] Failed to stat directory /Library/Application Support/ClaudeCode/.claude/agents: ENOENT: no such file or directory, stat '/Library/Application Support/ClaudeCode/.claude/agents'
+2026-05-27T06:40:10.795Z [DEBUG] Failed to stat directory /Library/Application Support/ClaudeCode/.claude/output-styles: ENOENT: no such file or directory, stat '/Library/Application Support/ClaudeCode/.claude/output-styles'
+2026-05-27T06:40:10.795Z [DEBUG] Failed to stat directory /Library/Application Support/ClaudeCode/.claude/skills: ENOENT: no such file or directory, stat '/Library/Application Support/ClaudeCode/.claude/skills'
+2026-05-27T06:40:10.795Z [DEBUG] Failed to stat directory /Library/Application Support/ClaudeCode/.claude/workflows: ENOENT: no such file or directory, stat '/Library/Application Support/ClaudeCode/.claude/workflows'
+2026-05-27T06:40:10.795Z [DEBUG] Failed to stat directory /Library/Application Support/ClaudeCode/.claude/routines: ENOENT: no such file or directory, stat '/Library/Application Support/ClaudeCode/.claude/routines'
+2026-05-27T06:40:10.799Z [DEBUG] Total plugin agents loaded: 0
+2026-05-27T06:40:10.800Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-05-27T06:40:10.800Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2026-05-27T06:40:10.802Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-05-27T06:40:10.802Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-05-27T06:40:10.803Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:10.804Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.274eab207a98
+2026-05-27T06:40:10.804Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:10.804Z [DEBUG] Temp file written successfully, size: 992 bytes
+2026-05-27T06:40:10.804Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.274eab207a98 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:10.804Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:10.806Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills, 13 bundled skills, 0 builtin plugin skills
+2026-05-27T06:40:10.809Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:10.810Z [DEBUG] Git remote URL: null
+2026-05-27T06:40:10.811Z [DEBUG] No git remote URL found
+2026-05-27T06:40:10.811Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-05-27T06:40:10.811Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=/Users/lmh/.local/share/claude/versions/2.1.150)
+2026-05-27T06:40:10.812Z [DEBUG] rg error (signal=undefined, code=2, stderr: rg: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/captures/latest: No such file or directory (os error 2)
+), 27 results
+2026-05-27T06:40:10.812Z [DEBUG] [FileIndex] ripgrep: 27 files in 21ms
+2026-05-27T06:40:10.813Z [DEBUG] [FileIndex] cache refresh completed in 38ms
+2026-05-27T06:40:10.814Z [DEBUG] No CLAUDE.md/rules files found
+2026-05-27T06:40:16.885Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-05-27T06:40:16.886Z [DEBUG] FileHistory: Added snapshot for c48915d7-0685-4014-85b5-ab959346a42c, tracking 0 files
+2026-05-27T06:40:16.889Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-27T06:40:16.892Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.150.ed1; cc_entrypoint=cli; cch=00000;
+2026-05-27T06:40:16.893Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:16.893Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:16.894Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-27T06:40:16.894Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-27T06:40:16.896Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=180000
+2026-05-27T06:40:16.896Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-27T06:40:16.897Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.150.e11; cc_entrypoint=cli; cch=00000;
+2026-05-27T06:40:16.897Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:16.897Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:16.897Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-27T06:40:16.897Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-27T06:40:16.898Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-27T06:40:16.898Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-27T06:40:16.899Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:16.899Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:40:16.899Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:16.899Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:40:16.900Z [DEBUG] [API REQUEST] /v1/messages source=generate_session_title
+2026-05-27T06:40:16.900Z [DEBUG] [API REQUEST] /v1/messages source=repl_main_thread
+2026-05-27T06:40:16.906Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:16.907Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:16.912Z [DEBUG] Started caffeinate to prevent sleep
+2026-05-27T06:40:16.914Z [DEBUG] Plugin autoupdate: skipped (auto-updater disabled)
+2026-05-27T06:40:16.924Z [DEBUG] Stream started - received first chunk
+2026-05-27T06:40:16.925Z [DEBUG] [API:timing] first byte after 26ms
+2026-05-27T06:40:16.927Z [DEBUG] Stream started - received first chunk
+2026-05-27T06:40:16.927Z [DEBUG] [API:timing] first byte after 28ms
+2026-05-27T06:40:16.937Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:17.020Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:17.020Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.6caf6b81d78c
+2026-05-27T06:40:17.021Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:17.021Z [DEBUG] Temp file written successfully, size: 1041 bytes
+2026-05-27T06:40:17.021Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.6caf6b81d78c to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:17.021Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:20.802Z [WARN] Official marketplace GCS fetch failed: timeout of 10000ms exceeded
+2026-05-27T06:40:20.802Z [DEBUG] Attempting to auto-install official marketplace
+2026-05-27T06:40:22.066Z [DEBUG] FileHistory: Making snapshot for message 2ceaf1ac-b085-441d-9f72-e35d151b33e3
+2026-05-27T06:40:22.066Z [DEBUG] FileHistory: Added snapshot for 2ceaf1ac-b085-441d-9f72-e35d151b33e3, tracking 0 files
+2026-05-27T06:40:22.067Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-27T06:40:22.067Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.150.ed1; cc_entrypoint=cli; cch=00000;
+2026-05-27T06:40:22.067Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:22.068Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:22.068Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-27T06:40:22.068Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-27T06:40:22.068Z [DEBUG] autocompact: tokens=[REDACTED] level=ok effectiveWindow=180000
+2026-05-27T06:40:22.069Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-05-27T06:40:22.069Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.150.e11; cc_entrypoint=cli; cch=00000;
+2026-05-27T06:40:22.069Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:22.069Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:22.069Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-05-27T06:40:22.069Z [DEBUG] [API:auth] OAuth token check starting
+2026-05-27T06:40:22.069Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-27T06:40:22.069Z [DEBUG] [API:auth] OAuth token check complete
+2026-05-27T06:40:22.070Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:22.070Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:40:22.070Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:22.070Z [DEBUG] [API:timing] dispatching to firstParty model=mimo-v2.5-pro
+2026-05-27T06:40:22.071Z [DEBUG] [API REQUEST] /v1/messages source=generate_session_title
+2026-05-27T06:40:22.071Z [DEBUG] [API REQUEST] /v1/messages source=repl_main_thread
+2026-05-27T06:40:22.074Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:22.075Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:22.079Z [DEBUG] Stream started - received first chunk
+2026-05-27T06:40:22.079Z [DEBUG] [API:timing] first byte after 9ms
+2026-05-27T06:40:22.080Z [DEBUG] Stream started - received first chunk
+2026-05-27T06:40:22.080Z [DEBUG] [API:timing] first byte after 10ms
+2026-05-27T06:40:22.083Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:22.085Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:22.085Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.0253148c1c99
+2026-05-27T06:40:22.086Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:22.086Z [DEBUG] Temp file written successfully, size: 1079 bytes
+2026-05-27T06:40:22.086Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.0253148c1c99 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:22.086Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:23.817Z [DEBUG] SSH config check: code=1 configured=false
+2026-05-27T06:40:23.818Z [INFO] SSH not configured for GitHub, using HTTPS for anthropics/claude-plugins-official
+2026-05-27T06:40:23.821Z [DEBUG] git pull: cwd=/Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/plugins/marketplaces/anthropics-claude-plugins-official ref=default
+2026-05-27T06:40:23.824Z [WARN] git pull failed, will re-clone:
+2026-05-27T06:40:23.825Z [DEBUG] git clone: url=https://github.com/anthropics/claude-plugins-official.git ref=default timeout=120000ms
+2026-05-27T06:40:28.747Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:29.550Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:37.891Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:38.696Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:45.493Z [DEBUG] Stopped sleep inhibitor, allowing sleep
+2026-05-27T06:40:45.494Z [DEBUG] FileHistory: Making snapshot for message 580b0b43-decf-4f20-ac9e-5dd3bf8f4443
+2026-05-27T06:40:45.495Z [DEBUG] FileHistory: Added snapshot for 580b0b43-decf-4f20-ac9e-5dd3bf8f4443, tracking 0 files
+2026-05-27T06:40:45.502Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:45.502Z [DEBUG] Fast mode unavailable: Fast mode is currently unavailable
+2026-05-27T06:40:45.507Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:45.507Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.738762859ec4
+2026-05-27T06:40:45.507Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:45.507Z [DEBUG] Temp file written successfully, size: 1104 bytes
+2026-05-27T06:40:45.507Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.738762859ec4 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:45.507Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:45.510Z [WARN] [stderr] [?25h
+2026-05-27T06:40:45.511Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:45.511Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.c30d6bba79a6
+2026-05-27T06:40:45.511Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:45.511Z [DEBUG] Temp file written successfully, size: 1935 bytes
+2026-05-27T06:40:45.511Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.c30d6bba79a6 to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:45.512Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
+2026-05-27T06:40:45.512Z [DEBUG] Preserving file permissions: 100600
+2026-05-27T06:40:45.512Z [DEBUG] Writing to temp file: /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.e951adcbaa0c
+2026-05-27T06:40:45.513Z [DEBUG] Applied original permissions to temp file
+2026-05-27T06:40:45.513Z [DEBUG] Temp file written successfully, size: 2330 bytes
+2026-05-27T06:40:45.513Z [DEBUG] Renaming /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json.tmp.50371.e951adcbaa0c to /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json
+2026-05-27T06:40:45.513Z [DEBUG] File /Users/lmh/Documents/Codex/2026-05-27/claude-code-claude-code-token/.claude-test-interactive/.claude.json written atomically
