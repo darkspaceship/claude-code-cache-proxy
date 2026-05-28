@@ -1,2 +1,9 @@
-.claude*
-**/.claude*
+# Required for publishing the Claude Code plugin marketplace.
+!.claude-plugin/
+!.claude-plugin/**
+
+# Local Claude Code state and test sandboxes.
+.claude/
+**/.claude/
+.claude-test-*/
+**/.claude-test-*/

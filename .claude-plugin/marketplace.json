@@ -1,0 +1,14 @@
+{
+  "name": "local-cache-proxy",
+  "owner": {
+    "name": "Local"
+  },
+  "description": "Local Claude Code plugins for cache proxy experiments.",
+  "plugins": [
+    {
+      "name": "claude-code-cache-proxy",
+      "source": "./",
+      "description": "Auto-start a local cache proxy for Anthropic-compatible Claude Code backends."
+    }
+  ]
+}
