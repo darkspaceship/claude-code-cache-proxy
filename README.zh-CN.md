@@ -8,13 +8,13 @@
 - 转发到你真实的 Anthropic 兼容后端
 - 规范化 `x-anthropic-billing-header`，让 `cch` 保持稳定
 - 可选直接移除 billing header
-- 以 Claude Code 插件形式提供，并带有后台 monitor
+- 以 Claude Code 插件形式提供，并带有后台 SessionStart hook
 - 带一个启动器，自动把 `ANTHROPIC_BASE_URL` 改到本地代理，同时把原始上游保存到 `PROXY_UPSTREAM_URL`
 
 ## 文件
 
 - `.claude-plugin/plugin.json` - 插件清单
-- `monitors/monitors.json` - 在 Claude Code 中自动启动代理
+- `hooks/hooks.json` - 通过 Claude Code 的 SessionStart hook 自动启动代理
 - `bin/claude-code-cache-proxy.mjs` - 启动 Claude Code 的包装器
 
 ## 手动运行代理
@@ -47,9 +47,12 @@ npm run claude
 - 把 `ANTHROPIC_BASE_URL` 改成 `http://127.0.0.1:11434/anthropic`
 - 启动带本地插件的 Claude Code
 
+它还会先把代理拉起来，再继续启动 Claude Code，所以 `--resume`
+这类流程也能正常工作。
+
 ## 可选参数
 
-命令行参数优先于环境变量。内置 monitor 会执行
+命令行参数优先于环境变量。内置 SessionStart hook 会执行
 `node proxy.mjs --upstream "$PROXY_UPSTREAM_URL"`，代理启动时会读取下面这些
 `PROXY_*` 环境变量。布尔环境变量的规则是：不设置就是关闭，任意非空值就是开启。
 
@@ -72,6 +75,7 @@ npm run claude
 | `ANTHROPIC_BASE_URL` | 未设置 `PROXY_UPSTREAM_URL` 时必填 | 通过启动器运行时，先把它设成真实上游。启动器会把它复制到 `PROXY_UPSTREAM_URL`，再把它改成本地代理地址给 Claude Code 使用。 |
 | `PROXY_UPSTREAM_URL` | 无 | 显式指定真实上游，优先级高于 `ANTHROPIC_BASE_URL`。如果 `ANTHROPIC_BASE_URL` 已经指向本地代理，就用这个变量指定真实上游。 |
 | `PROXY_BASE_URL` | `http://127.0.0.1:11434/anthropic` | 启动器写入 `ANTHROPIC_BASE_URL` 的本地代理 base URL。需要换端口时，和 `PROXY_LISTEN` 一起设置。 |
+| `PROXY_START_WAIT_MS` | `2000` | hook 或启动器等待代理端口可用的最长时间，超过后 Claude Code 才继续。 |
 | `CLAUDE_BIN` | `claude` | 要启动的 Claude Code 可执行文件。适合自定义安装路径或版本包装器。 |
 
 `npm run claude --` 后面的参数会原样传给 Claude Code。`ANTHROPIC_AUTH_TOKEN`、
@@ -88,7 +92,7 @@ claude plugin install claude-code-cache-proxy@local-cache-proxy --scope local
 
 ## 配置已安装的插件
 
-如果你正常运行已安装插件的 `claude`，monitor 可以启动代理，但不能反过来修改
+如果你正常运行已安装插件的 `claude`，SessionStart hook 可以启动代理，但不能反过来修改
 Claude Code 已经加载好的环境变量。所以要把 Claude Code 指向本地代理，再把代理指向
 真实上游：
 

@@ -11,11 +11,13 @@ async function readJson(relativePath) {
   );
 }
 
-test("plugin manifest declares the cache proxy monitor", async () => {
+test("plugin manifest declares the cache proxy hooks", async () => {
   const manifest = await readJson("../.claude-plugin/plugin.json");
 
   assert.equal(manifest.name, "claude-code-cache-proxy");
-  assert.equal(manifest.experimental.monitors, "./monitors/monitors.json");
+  assert.equal(manifest.version, "0.1.3");
+  assert.equal(manifest.experimental, undefined);
+  assert.equal(manifest.hooks, undefined);
 });
 
 test("marketplace entry points at the local plugin root", async () => {
@@ -27,12 +29,14 @@ test("marketplace entry points at the local plugin root", async () => {
   assert.equal(marketplace.plugins[0].source, "./");
 });
 
-test("monitor command launches the proxy from the plugin root", async () => {
-  const monitors = await readJson("../monitors/monitors.json");
+test("SessionStart hook launches the proxy from the plugin root", async () => {
+  const hooks = await readJson("../hooks/hooks.json");
 
-  assert.ok(Array.isArray(monitors));
-  assert.equal(monitors[0].name, "cache-proxy");
-  assert.match(monitors[0].command, /proxy\.mjs/);
-  assert.match(monitors[0].command, /\$\{CLAUDE_PLUGIN_ROOT\}/);
-  assert.match(monitors[0].command, /\$\{PROXY_UPSTREAM_URL\}/);
+  assert.ok(Array.isArray(hooks.hooks.SessionStart));
+  assert.equal(hooks.hooks.SessionStart[0].matcher, ".*");
+  assert.match(hooks.hooks.SessionStart[0].hooks[0].command, /session-start\.mjs/);
+  assert.match(
+    hooks.hooks.SessionStart[0].hooks[0].command,
+    /\$\{CLAUDE_PLUGIN_ROOT\}/,
+  );
 });

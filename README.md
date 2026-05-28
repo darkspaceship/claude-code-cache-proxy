@@ -16,13 +16,13 @@ This project provides a local proxy for Claude Code when you want to use any Ant
 - Forwards requests to your real Anthropic-compatible backend
 - Normalizes `x-anthropic-billing-header` so `cch` stays stable
 - Optionally drops the billing header entirely
-- Ships as a Claude Code plugin with a background monitor
+- Ships as a Claude Code plugin with a SessionStart hook
 - Includes a launcher that rewrites `ANTHROPIC_BASE_URL` to the local proxy and preserves the original upstream in `PROXY_UPSTREAM_URL`
 
 ## Files
 
 - `.claude-plugin/plugin.json` - plugin manifest
-- `monitors/monitors.json` - auto-starts the proxy inside Claude Code
+- `hooks/hooks.json` - auto-starts the proxy via a Claude Code SessionStart hook
 - `bin/claude-code-cache-proxy.mjs` - launcher that starts Claude Code with the rewritten environment
 
 ## Run the proxy manually
@@ -55,9 +55,12 @@ The launcher will:
 - rewrite `ANTHROPIC_BASE_URL` to `http://127.0.0.1:11434/anthropic`
 - start Claude Code with the local plugin loaded
 
+It also starts the proxy before Claude Code continues, which makes resume
+flows work the same way.
+
 ## Options
 
-CLI flags override environment variables. The bundled monitor starts
+CLI flags override environment variables. The bundled SessionStart hook starts
 `node proxy.mjs --upstream "$PROXY_UPSTREAM_URL"`, and the proxy reads the
 `PROXY_*` environment variables when it starts. For boolean environment
 variables, unset means off and any non-empty value means on.
@@ -81,6 +84,7 @@ variables, unset means off and any non-empty value means on.
 | `ANTHROPIC_BASE_URL` | Required unless `PROXY_UPSTREAM_URL` is set | When using the launcher, set this to the real upstream first. The launcher copies it into `PROXY_UPSTREAM_URL`, then rewrites it to the local proxy URL for Claude Code. |
 | `PROXY_UPSTREAM_URL` | None | Explicit real upstream. Takes precedence over `ANTHROPIC_BASE_URL`. Use this if `ANTHROPIC_BASE_URL` already points at the local proxy. |
 | `PROXY_BASE_URL` | `http://127.0.0.1:11434/anthropic` | Local proxy base URL written into `ANTHROPIC_BASE_URL` by the launcher. Set it together with `PROXY_LISTEN` if you need another port. |
+| `PROXY_START_WAIT_MS` | `2000` | How long the hook or launcher waits for the proxy port to become reachable before Claude Code continues. |
 | `CLAUDE_BIN` | `claude` | Claude Code executable to launch. Useful for a custom install path or version wrapper. |
 
 Arguments after `npm run claude --` are passed through to Claude Code. Claude
@@ -98,7 +102,7 @@ After enabling it, run `/reload-plugins` in Claude Code or restart the session.
 
 ## Configure an installed plugin
 
-When you start Claude Code normally with the installed plugin, the monitor can
+When you start Claude Code normally with the installed plugin, the SessionStart hook can
 start the proxy, but it cannot rewrite Claude Code's already-loaded environment.
 Configure Claude Code to call the local proxy, and configure the proxy to call
 your real upstream:

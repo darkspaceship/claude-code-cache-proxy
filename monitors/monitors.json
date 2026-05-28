@@ -1,8 +1,0 @@
-[
-  {
-    "name": "cache-proxy",
-    "command": "cd \"${CLAUDE_PLUGIN_ROOT}\" && node proxy.mjs --upstream \"${PROXY_UPSTREAM_URL}\"",
-    "description": "Start the local cache proxy for Claude Code",
-    "when": "always"
-  }
-]

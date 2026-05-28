@@ -2,6 +2,7 @@
 import { spawn } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { buildClaudeCodeLaunchEnv } from "../launcher.mjs";
+import { ensureProxyRunning } from "../hooks/session-start.mjs";
 
 const repoRoot = fileURLToPath(new URL("..", import.meta.url));
 const claudeBin = process.env.CLAUDE_BIN || "claude";
@@ -10,6 +11,7 @@ const args = ["--plugin-dir", repoRoot, ...process.argv.slice(2)];
 let env;
 try {
   env = buildClaudeCodeLaunchEnv(process.env);
+  await ensureProxyRunning(env, console);
 } catch (error) {
   console.error(
     error instanceof Error ? error.message : String(error),

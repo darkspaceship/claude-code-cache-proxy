@@ -8,13 +8,13 @@
 - 実際の Anthropic 互換バックエンドへ転送する
 - `x-anthropic-billing-header` を正規化し、`cch` を安定化する
 - 必要なら billing header を完全に削除する
-- Claude Code プラグインとして background monitor を含める
+- Claude Code プラグインとして SessionStart hook を含める
 - `ANTHROPIC_BASE_URL` をローカルプロキシへ書き換え、元の upstream を `PROXY_UPSTREAM_URL` に保存する launcher を含める
 
 ## ファイル
 
 - `.claude-plugin/plugin.json` - プラグイン定義
-- `monitors/monitors.json` - Claude Code 内でプロキシを自動起動
+- `hooks/hooks.json` - Claude Code の SessionStart hook でプロキシを自動起動
 - `bin/claude-code-cache-proxy.mjs` - 環境を書き換えて Claude Code を起動する launcher
 
 ## プロキシを手動起動する
@@ -47,9 +47,12 @@ launcher は次を行います。
 - `ANTHROPIC_BASE_URL` を `http://127.0.0.1:11434/anthropic` に書き換える
 - ローカルプラグインを読み込んだ Claude Code を起動する
 
+また、Claude Code を続行する前にプロキシを起動するため、`--resume`
+のようなフローでも同じように動作します。
+
 ## オプション
 
-CLI フラグは環境変数より優先されます。付属の monitor は
+CLI フラグは環境変数より優先されます。付属の SessionStart hook は
 `node proxy.mjs --upstream "$PROXY_UPSTREAM_URL"` を実行し、プロキシ起動時に
 以下の `PROXY_*` 環境変数を読みます。boolean の環境変数は、未設定なら off、
 空でない値が入っていれば on です。
@@ -73,6 +76,7 @@ CLI フラグは環境変数より優先されます。付属の monitor は
 | `ANTHROPIC_BASE_URL` | `PROXY_UPSTREAM_URL` 未設定時は必須 | launcher 利用時は、まず実際の upstream をここに設定します。launcher がこれを `PROXY_UPSTREAM_URL` にコピーし、その後 Claude Code 用にローカルプロキシ URL へ書き換えます。 |
 | `PROXY_UPSTREAM_URL` | なし | 実際の upstream を明示します。`ANTHROPIC_BASE_URL` より優先されます。`ANTHROPIC_BASE_URL` がすでにローカルプロキシを指している場合に使います。 |
 | `PROXY_BASE_URL` | `http://127.0.0.1:11434/anthropic` | launcher が `ANTHROPIC_BASE_URL` に書き込むローカルプロキシ base URL。別ポートを使う場合は `PROXY_LISTEN` と一緒に設定してください。 |
+| `PROXY_START_WAIT_MS` | `2000` | hook または launcher が、Claude Code を続行する前にプロキシの port 到達性を待つ最大時間です。 |
 | `CLAUDE_BIN` | `claude` | 起動する Claude Code executable。カスタムインストールパスや version wrapper に使えます。 |
 
 `npm run claude --` 以降の引数は Claude Code にそのまま渡されます。
@@ -90,7 +94,7 @@ claude plugin install claude-code-cache-proxy@local-cache-proxy --scope local
 
 ## インストール済みプラグインの設定
 
-インストール済みプラグインを通常の `claude` で起動する場合、monitor はプロキシを
+インストール済みプラグインを通常の `claude` で起動する場合、SessionStart hook はプロキシを
 起動できますが、Claude Code がすでに読み込んだ環境変数を書き換えることはできません。
 Claude Code はローカルプロキシへ向け、プロキシは実際の upstream へ向けます。
 
